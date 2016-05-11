@@ -1,4 +1,4 @@
-FROM golang:1.4.3
+FROM golang:1.6.2
 
 RUN go get -ldflags="-s -w" \
     github.com/mitchellh/gox \
